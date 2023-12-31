@@ -6,7 +6,6 @@ print('''investment - to calculate the amount of interest you'll earn on your in
 bond - to calculate the amount you'll have to pay on a home loan''')
 
 calculator_type= input('Enter either investment or bond from the menu above to proceed: ').lower()
-calculator_type
 
 
 if calculator_type!='bond' and calculator_type!='investment':
